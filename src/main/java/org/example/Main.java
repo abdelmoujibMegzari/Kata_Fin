@@ -105,7 +105,7 @@ public class Main {
                 }else{
                     throw new RuntimeException("product not found");
                 }
-                client.addToCart(product,Integer.parseInt(underlyingLine[2]));
+                client.addToPortfolio(product,Integer.parseInt(underlyingLine[2]));
             }
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
